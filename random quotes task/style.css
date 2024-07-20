@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+}
+
+body{
+    width: 100svw;
+    height: 100svh;
+    color: aliceblue;
+    background: linear-gradient(#01012e , #240019) no-repeat;
+    
+}
+
+.background-container{
+    display: flex;
+}
+
+.container{
+    width: 100svw;
+    height: 100svh;
+    background-image: url("stars1.png");
+    text-align: center;
+    line-height: 2;
+}
+
+h1{
+    font-size: 40px;
+    margin-top: 150px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button{
+    width: 250px;
+    height: 45px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+    transition: 1s;
+    background: #ffffff93;
+    color: #4f083a;
+    border: none;
+    border-radius: 50px;
+}
+
+button:hover{
+    background: linear-gradient(#01012e69 , #24001966);
+    color: aliceblue;
+    box-shadow: 3px 3px 30px 3px #767474a0;
+
+}
